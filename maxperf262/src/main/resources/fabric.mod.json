@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "maxperf",
+  "version": "${version}",
+  "name": "MaxPerf",
+  "description": "Applies performance-tuned video settings and adds permanent client-side night vision (toggle with N). Designed to run alongside Sodium, Lithium, etc.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.maxperf.MaxPerfClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
